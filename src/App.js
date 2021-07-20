@@ -87,7 +87,11 @@ function App() {
           Github
         </a>{" "}
         by Katia Barnave and hosted on
-        <a href="/" target="blank" rel="nonreferrer">
+        <a
+          href="https://app.netlify.com/sites/friendly-johnson-5f1a09/deploys/60f6216641fe680007371ee3"
+          target="_blank"
+          rel="nonreferrer"
+        >
           {" "}
           Netlify
         </a>
