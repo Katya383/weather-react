@@ -82,7 +82,7 @@ function App() {
         <a
           href="https://github.com/Katya383/weather-react"
           target="_blank"
-          rel="nonreferrer"
+          rel="noreferrer"
         >
           Github
         </a>{" "}
@@ -90,7 +90,7 @@ function App() {
         <a
           href="https://app.netlify.com/sites/friendly-johnson-5f1a09/deploys/60f6216641fe680007371ee3"
           target="_blank"
-          rel="nonreferrer"
+          rel="noreferrer"
         >
           {" "}
           Netlify
