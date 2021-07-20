@@ -1,7 +1,4 @@
-import weather from "./Weather";
-import ReactDOM from "react-dom";
 import "./App.css";
-import "boostrap/dist/css/bootstrap.css";
 
 function App() {
   return (
@@ -16,7 +13,7 @@ function App() {
                     <input
                       type="search"
                       placeholder="Enter a city"
-                      className="fomr-control"
+                      className="form-control"
                       id="city-input"
                       autocomplete="off"
                     />
@@ -26,7 +23,7 @@ function App() {
                       className="btn btn-outline-secondary w-90"
                       id="current-location-button"
                     >
-                      Current
+                      Search
                     </button>
                   </div>
                 </div>
@@ -40,7 +37,7 @@ function App() {
                       <ul>
                         <li>
                           <div id="date"></div>
-                          <li id="descrition"></li>
+                          <li id="description"></li>
                         </li>
                       </ul>
                     </div>
@@ -70,7 +67,7 @@ function App() {
                 </div>
                 <img
                   className="weather-icon col-12-sm-4"
-                  src="/"
+                  src="http://openweathermap.org/img/wn/02n@2x.png"
                   id="icon"
                   alt="today-icon"
                 />
@@ -81,14 +78,17 @@ function App() {
         </div>
       </div>
       <footer>
-        Open-source coded {""}
-        <a href="/" target="_blank" rel="nonreferrer">
+        Open-source coded{" "}
+        <a
+          href="https://github.com/Katya383/weather-react"
+          target="_blank"
+          rel="nonreferrer"
+        >
           Github
-        </a>
-        {""}
+        </a>{" "}
         by Katia Barnave and hosted on
         <a href="/" target="blank" rel="nonreferrer">
-          {""}
+          {" "}
           Netlify
         </a>
       </footer>
@@ -97,8 +97,3 @@ function App() {
 }
 
 export default App;
-const rootelemtn = document.getElementById;
-{
-  ("root");
-}
-ReactDOM.render(<App />, rootElement);
